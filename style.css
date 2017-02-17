@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 2000px;
+}
+
+.container {
+	position: relative;
+	width: 520px;
+	height: 750px;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: visible;
+}
+
+.first-sheet {
+	padding: 45px 20px 20px;
+	background-color: #EBEBEB;
+	position: absolute;
+	z-index: 3;
+	width: 480px;
+	height: 685px;
+	border: 2px solid #000;
+}
+
+.second-sheet {
+	background-color: #CCCCCC; 
+	top: 25px;
+	left: 25px;
+	position: absolute;
+	z-index: 2;
+	width: 520px;
+	height: 750px;
+	border: 2px solid #000;
+}
+
+.third-sheet {
+	background-color: #ACACAC;
+	top: 50px;
+	left: 50px;
+	position: absolute;
+	z-index: 1;
+	width: 520px;
+	height: 750px;
+	border: 2px solid #000;
+}
+.first-article h1 {
+	margin-bottom: 15px;
+}
+
+.first-article .first-image {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.first-article .second-image {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.article-text-first {
+	margin-bottom: 10px;
+}
+.article-text-second {
+	display: inline;
+}
+.second-article {
+	clear: both;
+}
+
+.second-article h2 {
+	margin-bottom: 15px;
+}
+
+.img-block-left {
+	float: left;
+	width: 200px;
+}
+
+.img-block-right {
+	float: right;
+	width: 200px;
+
+}
+
+footer p {
+	clear: both;
+	font-size: 8px;
+	text-align: center;
+}
+
+.orange-stick {
+	border:2px solid #000;
+	background-color: #F68E56;
+	border-radius: 0 5px 5px 0;
+	width: 116px;
+	height: 26px;
+	position: absolute;
+	right: -93px;
+}
+
+.green-stick {
+	border:2px solid #000;
+	background-color: #39B54A;
+	border-radius: 0 5px 5px 0;
+	width: 76px;
+	height: 26px;
+	position: absolute;
+	right: -55px;
+	top: 43px;
+}
+
+.blue-stick {
+	border:2px solid #000;
+	background-color: #00AEEF;
+	border-radius: 0 5px 5px 0;
+	width: 36px;
+	height: 26px;
+	position: absolute;
+	right: -15px;
+	top: 41px;
+}
+
+.banner-icons {
+	width: 100px;
+	height: 75px;
+	border: 1px solid #000;
+	position: fixed;
+	right: 0;
+	bottom: 150px;
+	background-color: #FBAF5D;
+}
+.banner-icons p {
+	text-align: center;
+	padding: 5px;
+}
+
+.banner-icons ul{
+	padding: 5px;
+}
+
+.banner-icons ul li {
+	margin: 3px;
+	display: inline-block;
+}
